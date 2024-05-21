@@ -39,7 +39,7 @@
 			email: 'marina@supercontinental.co'
 		},
 		{
-			name: 'Marat Ibragimov',
+			name: 'Marat Ibragimov test',
 			role: 'Production Assistant',
 			email: 'marat@supercontinental.co'
 		}
