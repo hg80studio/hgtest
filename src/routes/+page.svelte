@@ -40,7 +40,7 @@
 		},
 		{
 			name: 'Marat Ibragimov test',
-			role: 'Production Assistant',
+			role: 'Production Assistant test',
 			email: 'marat@supercontinental.co'
 		}
 	];
