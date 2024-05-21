@@ -1,5 +1,3 @@
-// svelte.config.js
-
 import adapter from '@sveltejs/adapter-vercel';
 
 const config = {
@@ -19,7 +17,7 @@ const config = {
   // Specify the Node.js version for the adapter
   adapter: {
     // Specify the Node.js version
-    node: '20.12.2',
+    node: '16', // or '18'
   },
 };
 
