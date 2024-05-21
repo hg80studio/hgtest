@@ -1,19 +1,26 @@
-import adapter from 'svelte-adapter-foo';
+// svelte.config.js
 
-/** @type {import('@sveltejs/kit').Config} */
+import adapter from '@sveltejs/adapter-vercel';
+
 const config = {
-	kit: {
-		adapter: adapter({
-			// adapter options go here
-		})
-	}
+  kit: {
+    // Specify the adapter
+    adapter: adapter(),
+    // Specify the Node.js version
+    target: '#adapter',
+    // Optional: Set Node.js version
+    vite: {
+      ssr: {
+        noExternal: ['svelte']
+      }
+    },
+    // Optional: other kit configuration options
+  },
+  // Specify the Node.js version for the adapter
+  adapter: {
+    // Specify the Node.js version
+    node: '20.12.2',
+  },
 };
 
-import adapter from '@sveltejs/adapter-node';
-
-export default {
-	kit: {
-		adapter: adapter()
-	}
-};
 export default config;
