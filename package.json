@@ -1,3 +1,4 @@
+npm list @sveltejs/adapter-vercel
 {
 	"name": "supercontinental-landing",
 	"version": "0.0.1",
